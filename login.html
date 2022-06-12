@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>My Website . Login</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="screen-container">
+      <div class="auth-container">
+        <h1 class="auth-title">Login</h1>
+        <form action="home.html" method="POST">
+          <!-- email input  -->
+          <label for="email" class="auth-label">Email</label>
+          <input name="email" id="email" type="email" class="auth-input" />
+          <br />
+          <!-- password input  -->
+          <label for="password" class="auth-label">Password</label>
+          <input
+            name="password"
+            id="password"
+            type="password"
+            class="auth-input"
+          />
+
+          <p>Don't have an account? <a href="signup.html">Sign up</a></p>
+          <!-- submit button  -->
+          <button type="submit" class="auth-button">Login</button>
+        </form>
+        <button id="id-button">Click</button>
+      </div>
+    </div>
+  </body>
+
+  <script src="script.js"></script>
+</html>
+
